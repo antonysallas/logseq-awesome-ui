@@ -1,5 +1,42 @@
-node_modules
-.DS_Store
-dist
 *.local
 .version.ts
+
+# Ignore node_modules
+node_modules/
+
+# Ignore built files and directories
+dist/
+build/
+out/
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Ignore specific TypeScript files
+*.tsbuildinfo
+
+# Ignore CSS generated files and directories
+css/
+*.css
+*.css.map
+
+# Ignore specific editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files and logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment files
+.env
+.env.*
